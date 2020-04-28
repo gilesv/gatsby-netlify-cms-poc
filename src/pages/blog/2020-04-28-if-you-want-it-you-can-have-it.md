@@ -24,8 +24,12 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 
 Pulldown a local copy of the Github repository Netlify created for you, with the name you specified in the previous step
 
-```
+```rust
+use std::oi;
 
+fn main() {
+   println!("hey world");
+}
 ```
 
 This uses the new[Netlify Dev](https://www.netlify.com/products/dev/?utm_source=blog&utm_medium=netlifycms&utm_campaign=devex)CLI feature to serve any functions you have in the`lambda`folder.
